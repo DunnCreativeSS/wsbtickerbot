@@ -7,7 +7,7 @@ import pprint
 import operator
 import datetime
 from praw.models import MoreComments
-from iexfinance import Stock as IEXStock
+from iexfinance import Share as IEXStock
 
 # to add the path for Python to search for files to use my edited version of vaderSentiment
 sys.path.insert(0, 'vaderSentiment/vaderSentiment')
